@@ -113,11 +113,8 @@ ul {
 }
 
 .zap {
-    all: unset;
     width: 10vw;
     height: 10vw;
     margin-bottom: 1vw;
-    border: none;
-    background-color: #f7f8e6;
-    padding: 0px;
+    display: block; /* Evita espaços extras em imagens */
 }
