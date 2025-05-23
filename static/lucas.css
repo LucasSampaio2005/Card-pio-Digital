@@ -46,8 +46,8 @@ ul {
     
 }
 .logo {
-    width: 60vw;
-    height: 20vw;
+    width: 70vw;
+    height: 30vw;
 }
 .cookies {
     width: auto;
@@ -130,7 +130,7 @@ ul {
 
 @media (max-width: 600px) {
   .subtitulo-principal p {
-    font-size: 40px;      /* menor no celular */
+    font-size: 25px;      /* menor no celular */
     margin-top: 10px;     /* mais afastado da logo */
   }
 }
