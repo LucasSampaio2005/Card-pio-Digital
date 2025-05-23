@@ -52,7 +52,7 @@ ul {
 .cookies {
     width: auto;
     height: auto;
-    margin-top: 5vw;
+    margin-top: 3vw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -117,4 +117,20 @@ ul {
     height: 10vw;
     margin-bottom: 1vw;
     display: block; /* Evita espaços extras em imagens */
+}
+
+.subtitulo-principal p {
+  color: #8B4513; /* marrom chocolate */
+  text-align: center;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 70px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .subtitulo-principal p {
+    font-size: 40px;      /* menor no celular */
+    margin-top: 10px;     /* mais afastado da logo */
+  }
 }
