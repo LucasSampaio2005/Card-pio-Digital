@@ -74,6 +74,7 @@ ul {
 .img-produtos {
     width: 75vw;
     height: 25vw;
+    
 }
 .cucas-grande {
     width: auto;
@@ -116,11 +117,11 @@ ul {
     width: 10vw;
     height: 10vw;
     margin-bottom: 1vw;
-    display: block; /* Evita espaços extras em imagens */
+    display: block; 
 }
 
 .subtitulo-principal p {
-  color: #8B4513; /* marrom chocolate */
+  color: #8B4513;
   text-align: center;
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 70px;
@@ -130,7 +131,50 @@ ul {
 
 @media (max-width: 600px) {
   .subtitulo-principal p {
-    font-size: 25px;      /* menor no celular */
-    margin-top: 10px;     /* mais afastado da logo */
+    font-size: 25px;      
+    margin-top: 10px;     
   }
+}
+
+.bolos {
+    width: auto;
+    height: auto;
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bolos ul {
+    width: 75vw;
+    text-align: left;
+}
+
+.descricao-artesanal {
+    text-align: center;
+    width: 75vw;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.descricao-artesanal p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: clamp(12px, 3vw, 20px);;
+    color: #7e5039;
+    margin: 0;
+}
+
+.info-entrega {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: clamp(12px, 2.8vw, 18px);
+    color: #7e5039;
+    text-align: center;
+    margin: 5px 0 10px 0;
+}
+
+.brinde p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: clamp(12px, 3vw, 20px);;
+    color: #7e5039;
+    margin: 0;
 }

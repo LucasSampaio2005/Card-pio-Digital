@@ -24,6 +24,10 @@
     <p>Da Regi</p>
 </div>
 
+<div class="descricao-artesanal">
+    <p>Produtos artesanais, feitos com carinho e com ingredientes de excelente qualidade.<br>(Consultar disponibilidade dos sabores antes do pedido)</p>
+</div>
+
     <div class="cookies">
         <div class="titulo">
             <h1>COOKIES (30g)</h1>
@@ -52,6 +56,9 @@
                 </li>
             </ul>
             <img class="img-produtos" src="{{url_for('static',filename='imagens/imagens_cookies.png')}}" alt="">
+        </div>
+        <div class="brinde">
+            <p>*A cada 10 cookies, ganhe um de brinde.*</p>
         </div>
     </div>
     <div class="cucas-grande">
@@ -114,9 +121,37 @@
             <img class="img-produtos" src="{{url_for('static',filename='imagens/imagens_cucas_medias.png')}}" alt="">
         </div>
     </div>
+    <div class="bolos">
+    <div class="titulo">
+        <h1>BOLOS</h1>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <p class="produto">BOLO DE CENOURA BABY (20cmX10cm)..................... R$ 25,00</p>
+                <p class="descricao">Bolo de cenoura com calda de chocolate e cobertura de brigadeiro<br>*Com brigadeiro extra*</p>
+            </li>
+
+            <li>
+                <p class="produto">BOLO DE CENOURA MÉDIO (15cmX20cm) .................. R$ 40,00</p>
+                <p class="descricao">Bolo de cenoura com cobertura de chocolate e calda de brigadeiro</p>
+            </li>
+
+            <li>
+                <p class="produto">BOLO DE CENOURA GRANDE (aro 26cm).................... R$ 70,00</p>
+                <p class="descricao">Bolo de cenoura com calda de chocolate e cobertura de brigadeiro</p>
+            </li>
+        </ul>
+
+        <img class="img-produtos" src="{{url_for('static',filename='imagens/imagens_bolos.png')}}" alt="">
+    </div>
+</div>
 </div>
 <div class="footer">
     <p class="texto-footer">FAÇA SEU PEDIDO JÁ!</p>
+    <p class="info-entrega">
+    Retirada no local ou entrega com taxa de R$ 5,00.
+</p>
     <a href="https://wa.me/5567999228877" target="_blank" rel="noopener noreferrer">
         
             <img class="zap" src="{{url_for('static',filename='imagens/wpp.png')}}" alt="WhatsApp">
